@@ -75,7 +75,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>177</width>
       <header>Asset Name</header>
       <factType>AssetInfo</factType>
       <boundName>asset</boundName>
@@ -99,13 +99,28 @@
       <valueList></valueList>
       <isInsertLogical>false</isInsertLogical>
     </insert-fact-column52>
+    <insert-fact-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Asset Site</header>
+      <factType>AssetInfo</factType>
+      <boundName>asset</boundName>
+      <factField>site</factField>
+      <type>String</type>
+      <isInsertLogical>false</isInsertLogical>
+    </insert-fact-column52>
     <set-field-col52>
       <typedDefaultValue>
         <valueString>asset</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
-      <hideColumn>false</hideColumn>
+      <hideColumn>true</hideColumn>
       <width>100</width>
       <header>Alert Asset Info</header>
       <boundName>alert</boundName>
@@ -186,6 +201,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>Site 1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>asset</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -225,6 +245,11 @@
       </value>
       <value>
         <valueString>TPY</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Site 2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -272,6 +297,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>Site 3</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>asset</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -315,6 +345,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>Site 4</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>asset</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -354,6 +389,11 @@
       </value>
       <value>
         <valueString>AMK</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Site 5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

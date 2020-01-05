@@ -11,11 +11,14 @@ public class AssetInfo implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Type")
 	private java.lang.String type;
 
-	@org.kie.api.definition.type.Label(value = "Name")
+	@org.kie.api.definition.type.Label("Name")
 	private java.lang.String name;
 
-	@org.kie.api.definition.type.Label(value = "Location")
+	@org.kie.api.definition.type.Label("Location")
 	private java.lang.String location;
+
+	@org.kie.api.definition.type.Label(value = "Site")
+	private java.lang.String site;
 
 	public AssetInfo() {
 	}
@@ -44,11 +47,20 @@ public class AssetInfo implements java.io.Serializable {
 		this.location = location;
 	}
 
+	public java.lang.String getSite() {
+		return this.site;
+	}
+
+	public void setSite(java.lang.String site) {
+		this.site = site;
+	}
+
 	public AssetInfo(java.lang.String type, java.lang.String name,
-			java.lang.String location) {
+			java.lang.String location, java.lang.String site) {
 		this.type = type;
 		this.name = name;
 		this.location = location;
+		this.site = site;
 	}
 
 }

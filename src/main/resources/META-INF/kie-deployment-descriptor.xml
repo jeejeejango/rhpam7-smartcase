@@ -10,7 +10,14 @@
     <task-event-listeners/>
     <globals/>
     <work-item-handlers/>
-    <environment-entries/>
+    <environment-entries>
+        <environment-entry>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.core.timer.BusinessCalendarImpl()</identifier>
+            <parameters/>
+            <name>jbpm.business.calendar</name>
+        </environment-entry>
+    </environment-entries>
     <configurations/>
     <required-roles/>
     <remoteable-classes/>
