@@ -1,0 +1,3 @@
+'Alert.assetType' : ['Generator','Control Room','Lights']
+'Alert.status' : ['OK','ERROR']
+'AssetInfo.type' : ['Generator','Control Room','Lights']
