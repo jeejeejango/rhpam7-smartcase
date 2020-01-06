@@ -38,3 +38,6 @@ Source: P3D
 Source value is defined as a constant in ISO standard duration format
 
 Note: Due Date set in the human task doesn't follow business calendar. I will suggest to use Reassignment or intermediate timer to trigger the due date/escalation.
+
+## Reference
+Many useful jBPM/Drools tips from [https://github.com/dmarrazzo/rh-bpm-notes](https://github.com/dmarrazzo/rh-bpm-notes)
