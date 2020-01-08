@@ -8,7 +8,6 @@
   <packaging>kjar</packaging>
   <name>SmartCase</name>
   <description>Example for Business Process</description>
-  <description></description>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
